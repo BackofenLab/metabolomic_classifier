@@ -125,6 +125,7 @@ def run_rf_tabpfn(X, y, input_size):
         average_prediction.append(score)
         prediction_list.extend(predictions)
         label_list.extend(tensor_y_test.cpu())
+        proba_list.extend(prob)
 
         
         
