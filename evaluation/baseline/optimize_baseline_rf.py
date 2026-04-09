@@ -299,7 +299,7 @@ if __name__ == '__main__':
 
     splits, importances_list = get_kfold_splits(X, y)
     average_prediction_test = [] 
-    input_sizes = list(range(40,500,20))
+    input_sizes = list(range(40,min(500, np.shape(X)[1]),20))
     
     
     for i, (train_index, test_index) in enumerate(splits):
