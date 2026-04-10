@@ -1,4 +1,4 @@
-# AE-TABPFN RF-TABPFN
+# Autoencoder/RandomForest–TabPFN for Cross-Cancer Metabolomics: Prostate and Breast Cancer Diagnosis Using Paper Spray and Ion Mobility–Mass Spectrometry techniques
 
 TabPFN based classifier for processing and classification of highly-dimensional metabolomic data
 
